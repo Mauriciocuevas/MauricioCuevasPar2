@@ -12,14 +12,14 @@ namespace App.View_Model
         #endregion
 
         #region ViewModels
-        public MainViewModel Login { get; set; }
+        public NotasViewModel Login { get; set; }
         #endregion
 
         #region Constructors
         public MainViewModel()
         {
             instance = this;
-            this.Login = new MainViewModel();
+            this.Login = new NotasViewModel();
         }
         #endregion
 
